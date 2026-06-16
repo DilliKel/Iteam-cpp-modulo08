@@ -102,17 +102,27 @@ modulo08/
 
 ---
 
-## Projeto Principal
+## Projetos Práticos
 
-### Bolão da Copa 2026
-Projeto prático desenvolvido na aula de 10/06/2026. Programa de console em C++ para bolão de apostas da Copa do Mundo com suporte a múltiplos apostadores, pontuação automática e ranking.
+### Bolão da Copa 2026 — V1 (Aula 10/06)
+Projeto prático da aula de 10/06/2026. Console em C++ com suporte a múltiplos apostadores, pontuação automática e ranking — implementado sem arrays/vetores, usando apenas conceitos das aulas 1–7.
 
-| Versão | Status | Descrição |
-|--------|--------|-----------|
-| V1 | ✓ Entregue | Sem arrays/vetores, até 4 jogadores — conceitos das aulas 1–7 |
-| V2 | Pendente | Refatoração com `vector`, POO e melhorias de validação |
+**Status:** ✓ Entregue | **Acesse:** [Projeto-Bolao-Copa-2026/](Projeto-Bolao-Copa-2026/) — [README do projeto](Projeto-Bolao-Copa-2026/README.md)
 
-**Acesse:** [Projeto-Bolao-Copa-2026/](Projeto-Bolao-Copa-2026/) — veja o [README completo do projeto](Projeto-Bolao-Copa-2026/README.md).
+---
+
+### Bolão da Copa 2026 — V2 (Atividade Prática de Laboratório C++ 2 — 15/06)
+Segunda atividade prática avaliada. Sistema de bolão refeito com **classes e vetores**.
+
+**Status:** ✓ Implementado | [bolaoversao2/bolaocopa2.cpp](Projeto-Bolao-Copa-2026/bolaoversao2/bolaocopa2.cpp)
+
+**Requisitos:**
+- Classes `Jogo` (timeCasa, timeFora, golsCasa, golsFora) e `Apostador` (nome, pontuação, palpites)
+- **Vetor estático** para os 4 jogos reais
+- **Vetor dinâmico** (`new[]`/`delete[]` ou `vector`) para os palpites de cada apostador
+- 3 apostadores (nomes fixos ou digitados)
+- Pontuação: placar exato = **10 pts**, acertar vencedor/empate = **5 pts**
+- Menu: cadastrar jogos → cadastrar palpites → calcular pontuação → exibir ranking
 
 ---
 
