@@ -18,7 +18,6 @@ modulo08/
 │   ├── aula05-repeticao/              # for, while, do-while
 │   └── aula06-excecoes/               # try/catch/throw + revisão integrada
 ├── Projeto-Bolao-Copa-2026/           # Projeto prático (aula 10/06)
-├── PROVA1-CPP-Respostas.md            # Gabarito — Prova 1
 └── .gitignore
 ```
 
@@ -50,14 +49,6 @@ modulo08/
 Projeto prático desenvolvido na aula de 10/06/2026. Programa de console em C++ para bolão de apostas da Copa do Mundo com suporte a múltiplos apostadores, pontuação automática e ranking.
 
 **Acesse:** [Projeto-Bolao-Copa-2026/](Projeto-Bolao-Copa-2026/) — veja o [README completo do projeto](Projeto-Bolao-Copa-2026/README.md).
-
----
-
-## Prova
-
-| Arquivo | Descrição |
-|---------|-----------|
-| [PROVA1-CPP-Respostas.md](PROVA1-CPP-Respostas.md) | Gabarito comentado da Prova 1 (10 questões de múltipla escolha) |
 
 ---
 
