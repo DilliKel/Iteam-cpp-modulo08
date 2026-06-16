@@ -14,10 +14,19 @@
 modulo08/
 ├── material/                          # PDFs das aulas e apostila
 ├── exercicios/
+│   ├── aula01-introducao/             # Hello World, estrutura básica
+│   ├── aula02-variaveis-tipos/        # Variáveis, tipos e operadores
 │   ├── aula03-entrada-saida/          # cin, cout, iomanip
+│   ├── aula04-condicionais/           # if/else, switch
 │   ├── aula05-repeticao/              # for, while, do-while
-│   └── aula06-excecoes/               # try/catch/throw + revisão integrada
-├── Projeto-Bolao-Copa-2026/           # Projeto prático (aula 10/06)
+│   ├── aula06-excecoes/               # try/catch/throw
+│   ├── aula07-funcoes/                # passagem por valor e referência
+│   ├── aula08-ponteiros/              # ponteiros e alocação dinâmica
+│   ├── aula09-poo/                    # classes, construtores, encapsulamento
+│   ├── aula10-heranca/                # herança e polimorfismo
+│   ├── aula11-stl-arquivos/           # templates, STL e fstream
+│   └── atvs-15.06.2026/               # atividades de fixação — POO
+├── Projeto-Bolao-Copa-2026/           # Projeto prático (V1 entregue, V2 pendente)
 └── .gitignore
 ```
 
@@ -25,10 +34,25 @@ modulo08/
 
 ## Exercícios por Aula
 
+### Aula 1 — Introdução ao C++
+| Arquivo | Descrição |
+|---------|-----------|
+| [exercicios/aula01-introducao/hello.cpp](exercicios/aula01-introducao/hello.cpp) | Hello World e estrutura básica de um programa C++ |
+
+### Aula 2 — Variáveis, Tipos e Operadores
+| Arquivo | Descrição |
+|---------|-----------|
+| [exercicios/aula02-variaveis-tipos/variaveis.cpp](exercicios/aula02-variaveis-tipos/variaveis.cpp) | Declaração e uso de variáveis dos principais tipos |
+
 ### Aula 3 — Entrada e Saída de Dados
 | Arquivo | Descrição |
 |---------|-----------|
 | [exercicios/aula03-entrada-saida/idade.cpp](exercicios/aula03-entrada-saida/idade.cpp) | Leitura de idade com `cin` e formatação de saída com `iomanip` |
+
+### Aula 4 — Condicionais
+| Arquivo | Descrição |
+|---------|-----------|
+| [exercicios/aula04-condicionais/condicionais.cpp](exercicios/aula04-condicionais/condicionais.cpp) | Estruturas `if/else` e `switch` |
 
 ### Aula 5 — Estruturas de Repetição
 | Arquivo | Descrição |
@@ -41,12 +65,52 @@ modulo08/
 |---------|-----------|
 | [exercicios/aula06-excecoes/login.cpp](exercicios/aula06-excecoes/login.cpp) | Sistema de login com 3 tentativas, `try/catch/throw` e validação de campos vazios |
 
+### Aula 7 — Funções
+| Arquivo | Descrição |
+|---------|-----------|
+| [exercicios/aula07-funcoes/funcoes.cpp](exercicios/aula07-funcoes/funcoes.cpp) | Passagem por valor e referência, sobrecarga e recursividade (fatorial) |
+
+### Aula 8 — Ponteiros e Alocação Dinâmica
+| Arquivo | Descrição |
+|---------|-----------|
+| [exercicios/aula08-ponteiros/ponteiros.cpp](exercicios/aula08-ponteiros/ponteiros.cpp) | Troca sem variável auxiliar, `new`/`delete`, aritmética de ponteiros |
+
+### Aula 9 — POO: Classes e Objetos
+| Arquivo | Descrição |
+|---------|-----------|
+| [exercicios/aula09-poo/conta_bancaria.cpp](exercicios/aula09-poo/conta_bancaria.cpp) | Classe `ContaBancaria` com encapsulamento, depósito, saque e extrato |
+
+### Aula 10 — Herança e Polimorfismo
+| Arquivo | Descrição |
+|---------|-----------|
+| [exercicios/aula10-heranca/heranca.cpp](exercicios/aula10-heranca/heranca.cpp) | Hierarquia `Funcionario → Gerente / Estagiario` com `virtual` e polimorfismo |
+
+### Aula 11 — Templates, STL e Arquivos
+| Arquivo | Descrição |
+|---------|-----------|
+| [exercicios/aula11-stl-arquivos/stl_arquivos.cpp](exercicios/aula11-stl-arquivos/stl_arquivos.cpp) | Template genérico, `vector`, `sort`/`find` e leitura/escrita com `fstream` |
+
+### Atividades de Fixação — 15/06/2026
+| Arquivo | Descrição |
+|---------|-----------|
+| [exercicios/atvs-15.06.2026/ex1-pessoa.cpp](exercicios/atvs-15.06.2026/ex1-pessoa.cpp) | Classe `Pessoa` com nome e idade |
+| [exercicios/atvs-15.06.2026/ex2-cachorro.cpp](exercicios/atvs-15.06.2026/ex2-cachorro.cpp) | Classe `Cachorro` com método `latir()` |
+| [exercicios/atvs-15.06.2026/ex3-aluno.cpp](exercicios/atvs-15.06.2026/ex3-aluno.cpp) | Classe `Aluno` com cálculo de média e situação |
+| [exercicios/atvs-15.06.2026/ex4-conta-bancaria.cpp](exercicios/atvs-15.06.2026/ex4-conta-bancaria.cpp) | Classe `ContaBancaria` com depósito, saque e saldo |
+| [exercicios/atvs-15.06.2026/ex5-animal.cpp](exercicios/atvs-15.06.2026/ex5-animal.cpp) | Classe `Animal` com método `emitir_som()` |
+| [exercicios/atvs-15.06.2026/energetico.cpp](exercicios/atvs-15.06.2026/energetico.cpp) | Classe `Energetico` — exercício de fixação extra |
+
 ---
 
 ## Projeto Principal
 
 ### Bolão da Copa 2026
 Projeto prático desenvolvido na aula de 10/06/2026. Programa de console em C++ para bolão de apostas da Copa do Mundo com suporte a múltiplos apostadores, pontuação automática e ranking.
+
+| Versão | Status | Descrição |
+|--------|--------|-----------|
+| V1 | ✓ Entregue | Sem arrays/vetores, até 4 jogadores — conceitos das aulas 1–7 |
+| V2 | Pendente | Refatoração com `vector`, POO e melhorias de validação |
 
 **Acesse:** [Projeto-Bolao-Copa-2026/](Projeto-Bolao-Copa-2026/) — veja o [README completo do projeto](Projeto-Bolao-Copa-2026/README.md).
 
@@ -56,17 +120,17 @@ Projeto prático desenvolvido na aula de 10/06/2026. Programa de console em C++ 
 
 | Aula | Tema | Exercício entregue |
 |------|------|--------------------|
-| 1 | Introdução ao C++ | — |
-| 2 | Variáveis, Tipos e Operadores | — |
+| 1 | Introdução ao C++ | `hello.cpp` |
+| 2 | Variáveis, Tipos e Operadores | `variaveis.cpp` |
 | 3 | Entrada/Saída (`cin`/`cout`/`iomanip`) | `idade.cpp` |
-| 4 | Condicionais (`if/else`, `switch`) | — |
+| 4 | Condicionais (`if/else`, `switch`) | `condicionais.cpp` |
 | 5 | Repetição (`for`, `while`, `do-while`) | `tabuada5.cpp`, `testeryan.cpp` |
 | 6 | Exceções (`try/catch/throw`) | `login.cpp` |
-| 7 | Funções (valor e referência) | aplicado em `bolao.cpp` |
-| 8 | Ponteiros e Alocação Dinâmica | — |
-| 9 | POO — Classes e Objetos | — |
-| 10 | Herança e Polimorfismo | — |
-| 11 | Templates, STL e Arquivos | — |
+| 7 | Funções (valor e referência) | `funcoes.cpp` + aplicado em `bolaocopa1.cpp` |
+| 8 | Ponteiros e Alocação Dinâmica | `ponteiros.cpp` |
+| 9 | POO — Classes e Objetos | `conta_bancaria.cpp` + atividades 15/06 |
+| 10 | Herança e Polimorfismo | `heranca.cpp` |
+| 11 | Templates, STL e Arquivos | `stl_arquivos.cpp` |
 
 ---
 
@@ -79,17 +143,18 @@ Projeto prático desenvolvido na aula de 10/06/2026. Programa de console em C++ 
 | [material/Slides-Aula-09.06.2026.pdf](material/Slides-Aula-09.06.2026.pdf) | Slides — Aulas 4, 5, 6 e 7 |
 | [material/Slides-aulas-11~12.06.2026.pdf](material/Slides-aulas-11~12.06.2026.pdf) | Slides — Aula 8 (Ponteiros) |
 | [material/Atv-Pratica-aula-10.06.2026.pdf](material/Atv-Pratica-aula-10.06.2026.pdf) | Enunciado da atividade prática (Bolão) |
+| [material/Slides-Aula-15.06.2026.pdf](material/Slides-Aula-15.06.2026.pdf) | Slides — Aulas 9, 10 e 11 (POO, Herança, STL) |
 
 ---
 
 ## Como Compilar
 
 ```bash
-# Qualquer exercício
-g++ exercicios/aula06-excecoes/login.cpp -o login
+# Qualquer exercício (exemplo)
+g++ exercicios/aula09-poo/conta_bancaria.cpp -o conta_bancaria
 
-# Projeto principal
-g++ Projeto-Bolao-Copa-2026/bolao.cpp -o bolao
+# Projeto V1
+g++ Projeto-Bolao-Copa-2026/bolaoversao1/bolaocopa1.cpp -o bolaocopa1
 ```
 
 **Requisito:** GCC instalado ([MinGW-w64](https://www.mingw-w64.org/) no Windows).
