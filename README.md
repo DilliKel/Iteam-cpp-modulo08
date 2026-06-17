@@ -25,7 +25,8 @@ modulo08/
 │   ├── aula09-poo/                    # classes, construtores, encapsulamento
 │   ├── aula10-heranca/                # herança e polimorfismo
 │   ├── aula11-stl-arquivos/           # templates, STL e fstream
-│   └── atvs-15.06.2026/               # atividades de fixação — POO
+│   ├── atvs-15.06.2026/               # atividades de fixação — POO (classes e objetos)
+│   └── atvs-16.06.2026/               # atividades de fixação — Encapsulamento
 ├── Projeto-Bolao-Copa-2026/           # Projeto prático (V1 entregue, V2 pendente)
 └── .gitignore
 ```
@@ -100,6 +101,16 @@ modulo08/
 | [exercicios/atvs-15.06.2026/ex5-animal.cpp](exercicios/atvs-15.06.2026/ex5-animal.cpp) | Classe `Animal` com método `emitir_som()` |
 | [exercicios/atvs-15.06.2026/energetico.cpp](exercicios/atvs-15.06.2026/energetico.cpp) | Classe `Energetico` — exercício de fixação extra |
 
+### Atividades de Fixação — 16/06/2026
+| Arquivo | Descrição |
+|---------|-----------|
+| [exercicios/atvs-16.06.2026/ex1-aluno.cpp](exercicios/atvs-16.06.2026/ex1-aluno.cpp) | Fixação 1 — Classe `Aluno` com `set_nota()` validando 0–10 |
+| [exercicios/atvs-16.06.2026/ex2-produto.cpp](exercicios/atvs-16.06.2026/ex2-produto.cpp) | Fixação 2 — Classe `Produto` com `set_preco()` validando > 0 |
+| [exercicios/atvs-16.06.2026/ex3-carro.cpp](exercicios/atvs-16.06.2026/ex3-carro.cpp) | Fixação 3 — Classe `Carro` com `acelerar()` e `frear()` (nunca abaixo de 0) |
+| [exercicios/atvs-16.06.2026/ex4-restaurante.cpp](exercicios/atvs-16.06.2026/ex4-restaurante.cpp) | Exercício 1 — Classe `Restaurante` com cardápio, sem duplicatas, atendimento de clientes |
+| [exercicios/atvs-16.06.2026/ex5-biblioteca.cpp](exercicios/atvs-16.06.2026/ex5-biblioteca.cpp) | Exercício 2 — Classe `Biblioteca` com acervo, validação e sem duplicatas |
+| [exercicios/atvs-16.06.2026/ex6-escola.cpp](exercicios/atvs-16.06.2026/ex6-escola.cpp) | Exercício 3 — Classes `Aluno` (com getters/setters validados) e `Escola` com lista de alunos |
+
 ---
 
 ## Projetos Práticos
@@ -138,7 +149,7 @@ Segunda atividade prática avaliada. Sistema de bolão refeito com **classes e v
 | 6 | Exceções (`try/catch/throw`) | `login.cpp` |
 | 7 | Funções (valor e referência) | `funcoes.cpp` + aplicado em `bolaocopa1.cpp` |
 | 8 | Ponteiros e Alocação Dinâmica | `ponteiros.cpp` |
-| 9 | POO — Classes e Objetos | `conta_bancaria.cpp` + atividades 15/06 |
+| 9 | POO — Classes e Objetos | `conta_bancaria.cpp` + atividades 15/06 e 16/06 |
 | 10 | Herança e Polimorfismo | `heranca.cpp` |
 | 11 | Templates, STL e Arquivos | `stl_arquivos.cpp` |
 
@@ -154,6 +165,7 @@ Segunda atividade prática avaliada. Sistema de bolão refeito com **classes e v
 | [material/Slides-aulas-11~12.06.2026.pdf](material/Slides-aulas-11~12.06.2026.pdf) | Slides — Aula 8 (Ponteiros) |
 | [material/Atv-Pratica-aula-10.06.2026.pdf](material/Atv-Pratica-aula-10.06.2026.pdf) | Enunciado da atividade prática (Bolão) |
 | [material/Slides-Aula-15.06.2026.pdf](material/Slides-Aula-15.06.2026.pdf) | Slides — Aulas 9, 10 e 11 (POO, Herança, STL) |
+| [material/Slides-Aula-16.06.2026.pdf](material/Slides-Aula-16.06.2026.pdf) | Slides — Aula 9 continuação (Encapsulamento, getters/setters) |
 
 ---
 

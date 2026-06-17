@@ -2,7 +2,7 @@
 // Aula: 15/06/2026
 // Disciplina: Linguagem de Programacao C++ — Modulo 08
 // Professora: Erika
-// Aluno: Kelvin Dilli
+// Aluno: Kelvin Araújo Ferreira
 // Exercicio: Fixacao
 // Objeto escolhido: Energetico
 // ===============================================================

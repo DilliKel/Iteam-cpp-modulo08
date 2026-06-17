@@ -51,7 +51,7 @@
 | Versão | Arquivo | Descrição |
 |--------|---------|-----------|
 | **V1** | [bolaoversao1/bolaocopa1.cpp](bolaoversao1/bolaocopa1.cpp) | Versão inicial — aulas 1–7, sem arrays/vetores, até 4 jogadores, ranking completo |
-| **V2** | `bolaoversao2/` *(em breve)* | Versão com `vector`, `lerPalpite()` com `cin.fail()`, `setlocale` |
+| **V2** | [bolaoversao2/bolaocopa2.cpp](bolaoversao2/bolaocopa2.cpp) | Versão com classes `Jogo` e `Apostador`, vetor estático e dinâmico, menu interativo |
 
 ---
 
