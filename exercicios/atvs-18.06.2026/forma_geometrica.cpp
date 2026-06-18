@@ -34,9 +34,9 @@ public:
     }
     
     void exibir() const override {
-        cout << "Círculo (raio=" << raio << ")" << endl;
-        cout << "  Área: " << calcular_area() << endl;
-        cout << "  Perímetro: " << calcular_perimetro() << endl;
+        cout << "Circulo (raio=" << raio << ")" << endl;
+        cout << "  Area: " << calcular_area() << endl;
+        cout << "  Perimetro: " << calcular_perimetro() << endl;
     }
 };
 
@@ -58,9 +58,9 @@ public:
     }
     
     void exibir() const override {
-        cout << "Retângulo (largura=" << largura << ", altura=" << altura << ")" << endl;
-        cout << "  Área: " << calcular_area() << endl;
-        cout << "  Perímetro: " << calcular_perimetro() << endl;
+        cout << "Retangulo (largura=" << largura << ", altura=" << altura << ")" << endl;
+        cout << "  Area: " << calcular_area() << endl;
+        cout << "  Perimetro: " << calcular_perimetro() << endl;
     }
 };
 
@@ -83,9 +83,9 @@ public:
     }
     
     void exibir() const override {
-        cout << "Triângulo (lados=" << lado1 << ", " << lado2 << ", " << lado3 << ")" << endl;
-        cout << "  Área: " << calcular_area() << endl;
-        cout << "  Perímetro: " << calcular_perimetro() << endl;
+        cout << "Triangulo (lados=" << lado1 << ", " << lado2 << ", " << lado3 << ")" << endl;
+        cout << "  Area: " << calcular_area() << endl;
+        cout << "  Perimetro: " << calcular_perimetro() << endl;
     }
 };
 
