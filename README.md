@@ -4,7 +4,7 @@
 
 **Professora:** Érika Dilliany Gaya Rabêlo dos Santos  
 **Carga horária:** 40 horas  
-**Turma:** [@RKayky](https://github.com/RKayky) · [@DilliKel](https://github.com/DilliKel) · [@iany-jess](https://github.com/iany-jess)
+**Trio Fechadão:** [@DilliKel](https://github.com/DilliKel) · [@RKayky](https://github.com/RKayky) ·  [@iany-jess](https://github.com/iany-jess)
 
 ---
 
@@ -26,7 +26,8 @@ modulo08/
 │   ├── aula10-heranca/                # herança e polimorfismo
 │   ├── aula11-stl-arquivos/           # templates, STL e fstream
 │   ├── atvs-15.06.2026/               # atividades de fixação — POO (classes e objetos)
-│   └── atvs-16.06.2026/               # atividades de fixação — Encapsulamento
+│   ├── atvs-16.06.2026/               # atividades de fixação — Encapsulamento
+│   └── atvs-17.06.2026/               # atividades de fixação — Herança
 ├── Projeto-Bolao-Copa-2026/           # Projeto prático (V1 entregue, V2 pendente)
 └── .gitignore
 ```
@@ -111,6 +112,14 @@ modulo08/
 | [exercicios/atvs-16.06.2026/ex5-biblioteca.cpp](exercicios/atvs-16.06.2026/ex5-biblioteca.cpp) | Exercício 2 — Classe `Biblioteca` com acervo, validação e sem duplicatas |
 | [exercicios/atvs-16.06.2026/ex6-escola.cpp](exercicios/atvs-16.06.2026/ex6-escola.cpp) | Exercício 3 — Classes `Aluno` (com getters/setters validados) e `Escola` com lista de alunos |
 
+### Atividades de Fixação — 17/06/2026
+| Arquivo | Descrição |
+|---------|-----------|
+| [exercicios/atvs-17.06.2026/ex1-veiculo.cpp](exercicios/atvs-17.06.2026/ex1-veiculo.cpp) | Fixação 1 — `Veiculo` (base) e `Carro` (herda marca, adiciona modelo) |
+| [exercicios/atvs-17.06.2026/ex2-funcionario.cpp](exercicios/atvs-17.06.2026/ex2-funcionario.cpp) | Fixação 2 — `Funcionario` e `Gerente` com `mostrarSalario()` sobrescrito (+20% bônus) |
+| [exercicios/atvs-17.06.2026/ex3-produto.cpp](exercicios/atvs-17.06.2026/ex3-produto.cpp) | Fixação 3 — `Produto` (base), `Livro` (adiciona autor) e `Eletronico` (adiciona marca) |
+| [exercicios/atvs-17.06.2026/aula-pratica.cpp](exercicios/atvs-17.06.2026/aula-pratica.cpp) | Aula prática — `Pessoa` (virtual), `Professor` e `Aluno` com `override` |
+
 ---
 
 ## Projetos Práticos
@@ -150,7 +159,7 @@ Segunda atividade prática avaliada. Sistema de bolão refeito com **classes e v
 | 7 | Funções (valor e referência) | `funcoes.cpp` + aplicado em `bolaocopa1.cpp` |
 | 8 | Ponteiros e Alocação Dinâmica | `ponteiros.cpp` |
 | 9 | POO — Classes e Objetos | `conta_bancaria.cpp` + atividades 15/06 e 16/06 |
-| 10 | Herança e Polimorfismo | `heranca.cpp` |
+| 10 | Herança e Polimorfismo | `heranca.cpp` + atividades 17/06 |
 | 11 | Templates, STL e Arquivos | `stl_arquivos.cpp` |
 
 ---
