@@ -203,6 +203,16 @@ g++ Projeto-Bolao-Copa-2026/bolaoversao1/bolaocopa1.cpp -o bolaocopa1
 
 ---
 
+## Aprendizados
+
+Já tinha contato prévio com C e com POO em Java, mas C++ trouxe desafios específicos: a estrutura e a forma de implementar orientação a objetos são diferentes do que eu conhecia. Nunca me dei tão bem com o ecossistema de C, então o maior obstáculo foi **reaprender o que já sabia em um contexto diferente**.
+
+O curso teve 40 horas em 10 dias de aula — um ritmo intenso que não permitiu cobrir tudo sobre C++, mas que foi suficiente para **consolidar os fundamentos e aprender coisas novas**. As dúvidas foram sendo resolvidas com a professora ao longo das aulas, e cada exercício ajudou a fixar os conceitos.
+
+A ideia é levar esse conhecimento adiante — C++ abre portas para sistemas, jogos e performance que outras linguagens não alcançam com a mesma eficiência.
+
+---
+
 ## Licença
 
 Distribuído sob a licença [MIT](LICENSE).
