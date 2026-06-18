@@ -27,8 +27,9 @@ modulo08/
 │   ├── aula11-stl-arquivos/           # templates, STL e fstream
 │   ├── atvs-15.06.2026/               # atividades de fixação — POO (classes e objetos)
 │   ├── atvs-16.06.2026/               # atividades de fixação — Encapsulamento
-│   └── atvs-17.06.2026/               # atividades de fixação — Herança
-├── Projeto-Bolao-Copa-2026/           # Projeto prático (V1 entregue, V2 pendente)
+│   ├── atvs-17.06.2026/               # atividades de fixação — Herança
+│   └── atvs-18.06.2026/               # atividades de fixação — Árvores e Classes Abstratas
+├── Projeto-Bolao-Copa-2026/           # Projeto prático (V1 e V2 entregues)
 └── .gitignore
 ```
 
@@ -81,6 +82,7 @@ modulo08/
 | Arquivo | Descrição |
 |---------|-----------|
 | [exercicios/aula09-poo/conta_bancaria.cpp](exercicios/aula09-poo/conta_bancaria.cpp) | Classe `ContaBancaria` com encapsulamento, depósito, saque e extrato |
+| [exercicios/aula09-poo/cachorro.cpp](exercicios/aula09-poo/cachorro.cpp) | Classe `Cachorro` com atributos e comportamentos básicos |
 
 ### Aula 10 — Herança e Polimorfismo
 | Arquivo | Descrição |
@@ -119,6 +121,13 @@ modulo08/
 | [exercicios/atvs-17.06.2026/ex2-funcionario.cpp](exercicios/atvs-17.06.2026/ex2-funcionario.cpp) | Fixação 2 — `Funcionario` e `Gerente` com `mostrarSalario()` sobrescrito (+20% bônus) |
 | [exercicios/atvs-17.06.2026/ex3-produto.cpp](exercicios/atvs-17.06.2026/ex3-produto.cpp) | Fixação 3 — `Produto` (base), `Livro` (adiciona autor) e `Eletronico` (adiciona marca) |
 | [exercicios/atvs-17.06.2026/aula-pratica.cpp](exercicios/atvs-17.06.2026/aula-pratica.cpp) | Aula prática — `Pessoa` (virtual), `Professor` e `Aluno` com `override` |
+
+### Atividades de Fixação — 18/06/2026
+| Arquivo | Descrição |
+|---------|-----------|
+| [exercicios/atvs-18.06.2026/forma_geometrica.cpp](exercicios/atvs-18.06.2026/forma_geometrica.cpp) | Exemplo do slide — classe abstrata `Forma` com `Circulo`, `Retangulo` e `Triangulo` |
+| [exercicios/atvs-18.06.2026/arvore.cpp](exercicios/atvs-18.06.2026/arvore.cpp) | Exemplo do slide — `ArvoreBinaria` com índices e percurso em ordem |
+| [exercicios/atvs-18.06.2026/floresta-encantada.cpp](exercicios/atvs-18.06.2026/floresta-encantada.cpp) | Desafio — `Personagem` e `ChefeDaFloresta` em árvore binária ordenada por poder |
 
 ---
 
@@ -159,7 +168,7 @@ Segunda atividade prática avaliada. Sistema de bolão refeito com **classes e v
 | 7 | Funções (valor e referência) | `funcoes.cpp` + aplicado em `bolaocopa1.cpp` |
 | 8 | Ponteiros e Alocação Dinâmica | `ponteiros.cpp` |
 | 9 | POO — Classes e Objetos | `conta_bancaria.cpp` + atividades 15/06 e 16/06 |
-| 10 | Herança e Polimorfismo | `heranca.cpp` + atividades 17/06 |
+| 10 | Herança e Polimorfismo | `heranca.cpp` + atividades 17/06 e 18/06 |
 | 11 | Templates, STL e Arquivos | `stl_arquivos.cpp` |
 
 ---
@@ -175,6 +184,8 @@ Segunda atividade prática avaliada. Sistema de bolão refeito com **classes e v
 | [material/Atv-Pratica-aula-10.06.2026.pdf](material/Atv-Pratica-aula-10.06.2026.pdf) | Enunciado da atividade prática (Bolão) |
 | [material/Slides-Aula-15.06.2026.pdf](material/Slides-Aula-15.06.2026.pdf) | Slides — Aulas 9, 10 e 11 (POO, Herança, STL) |
 | [material/Slides-Aula-16.06.2026.pdf](material/Slides-Aula-16.06.2026.pdf) | Slides — Aula 9 continuação (Encapsulamento, getters/setters) |
+| [material/Slides-Aula-17.06.2026.pdf](material/Slides-Aula-17.06.2026.pdf) | Slides — Aula 10 (Herança e Polimorfismo) |
+| [material/Slides-Aula-18.06.2026.pdf](material/Slides-Aula-18.06.2026.pdf) | Slides — Aulas 9, 10 e 11 (Árvores, Classes Abstratas, Recursos Avançados) |
 
 ---
 
