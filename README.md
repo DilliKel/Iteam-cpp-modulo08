@@ -200,3 +200,9 @@ g++ Projeto-Bolao-Copa-2026/bolaoversao1/bolaocopa1.cpp -o bolaocopa1
 ```
 
 **Requisito:** GCC instalado ([MinGW-w64](https://www.mingw-w64.org/) no Windows).
+
+---
+
+## Licença
+
+Distribuído sob a licença [MIT](LICENSE).
